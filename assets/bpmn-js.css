@@ -1,5 +1,5 @@
 .bjs-container {
-  --bjs-font-family: Arial, sans-serif;
+  --bjs-font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei", "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK SC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", sans-serif !important;
 
   --color-grey-225-10-15: hsl(225, 10%, 15%);
   --color-grey-225-10-35: hsl(225, 10%, 35%);
