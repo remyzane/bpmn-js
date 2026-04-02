@@ -6,6 +6,21 @@ All notable changes to [bpmn-js](https://github.com/bpmn-io/bpmn-js) are documen
 
 ___Note:__ Yet to be released changes appear here._
 
+## 18.14.0
+
+* `FEAT`: prioritize full word matches in search ([bpmn-io/diagram-js#1017](https://github.com/bpmn-io/diagram-js/pull/1017))
+* `FEAT`: factor match density into search ([bpmn-io/diagram-js#1017](https://github.com/bpmn-io/diagram-js/pull/1017))
+* `CHORE`: prioritize later search matches slightly lower ([bpmn-io/diagram-js#1017](https://github.com/bpmn-io/diagram-js/pull/1017))
+* `DEPS`: update to `diagram-js@15.11.0`
+* `DEPS`: update to `ids@3.0.3`
+
+## 18.13.2
+
+* `FIX`: disable grouping in popup menu during search ([bpmn-io/diagram-js#1014](https://github.com/bpmn-io/diagram-js/pull/1014))
+* `FIX`: correct handling of annotations during sub-process collapse/expand, copy/paste, and remove actions ([#2388](https://github.com/bpmn-io/bpmn-js/pull/2388))
+* `FIX`: allow undo of pasted sub-process ([#2388](https://github.com/bpmn-io/bpmn-js/pull/2388), [#2269](https://github.com/bpmn-io/bpmn-js/issues/2269))
+* `DEPS`: update to `diagram-js@15.10.0`
+
 ## 18.13.1
 
 * `FIX`: correct sequence flow layout for corner boundary events whose target is strictly axis-aligned ([#2270](https://github.com/bpmn-io/bpmn-js/issues/2270))
